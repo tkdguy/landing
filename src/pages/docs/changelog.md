@@ -2,6 +2,19 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
+## r2107-r2109
+* T4:
+ * No Changes
+ 
+* IW5:
+  * Fixed IW5 crashing for servers
+  * Updated bots
+  * Fixed hosting with Wine
+
+* T6
+  * Force 'aim_lockon_enabled' to 1
+
+
 ## r2016 - r2107 - Aim Assist is here
 * T4:
   * No Changes.
@@ -27,7 +40,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * The t6r from the start of our client is now removed, everything will now use %localappdata%/storage/t6/
   * `cg_fovScale` will no longer keep resetting after closing Plutonium.
 
-## r1953-r2016
+ ## r1953-r2016
 
 * T4:
   * No changes.
