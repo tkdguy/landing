@@ -2,6 +2,16 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r2485-r2568
+
+* T4
+  * Gen Ed
+
+* IW5
+
+* T6
+  * Fix paralyzer floating, zombie slowdown and ice staff zombe slowdown on zm dedis
+
 ## r2462-r2485
 
 * IW5:
