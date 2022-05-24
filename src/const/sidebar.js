@@ -163,4 +163,11 @@ export const sections = [
             },
         ],
     },
+    {
+        title: <FormattedMessage defaultMessage="Policies" />,
+        children: [
+            '/docs/policies/forum-rules',
+            '/docs/policies/discord-rules',
+        ],
+    },
 ];
