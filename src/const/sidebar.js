@@ -21,6 +21,13 @@ export const sections = [
                 ],
             },
             {
+                title: <FormattedMessage defaultMessage="Policies" />,
+                children: [
+                    '/docs/policies/forum-rules',
+                    '/docs/policies/discord-rules',
+                ],
+            },
+            {
                 title: <FormattedMessage defaultMessage="Support" />,
                 children: [
                     '/docs/support',
@@ -161,13 +168,6 @@ export const sections = [
                     '/docs/client/t4/perfect-borderless-window',
                 ],
             },
-        ],
-    },
-    {
-        title: <FormattedMessage defaultMessage="Policies" />,
-        children: [
-            '/docs/policies/forum-rules',
-            '/docs/policies/discord-rules',
         ],
     },
 ];
