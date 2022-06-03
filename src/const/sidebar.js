@@ -141,6 +141,14 @@ export const sections = [
                     '/docs/server/t4/fastdl',
                 ],
             },
+            {
+                title: <FormattedMessage defaultMessage="Plutonium T5 server" />,
+                children: [
+                    '/docs/server/t5/setting-up-a-server',
+                    '/docs/server/t5/loading-mods',
+                    '/docs/server/t5/fastdl',
+                ],
+            },
         ],
     },
     {
@@ -166,6 +174,12 @@ export const sections = [
                     '/docs/client/t4/migrating-steam-t4-stats',
                     '/docs/client/t4/rebinding-controller',
                     '/docs/client/t4/perfect-borderless-window',
+                ],
+            },
+            {
+                title: <FormattedMessage defaultMessage="Plutonium T5 Client" />,
+                children: [
+                    '/docs/client/t5/loading-mods',
                 ],
             },
         ],
