@@ -4,11 +4,13 @@ import { Fragment } from 'react';
 import GameIW5Icon from '../icons/game-iw5.svg';
 import GameT6Icon from '../icons/game-t6.svg';
 import GameT4Icon from '../icons/game-t4.svg';
+import GameT5Icon from '../icons/game-t5.svg';
 import ArrowRight from '../icons/arrow-right.svg';
 import Link from 'next/link';
 import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 const iconMap = {
+    t5: GameT5Icon,
     t6: GameT6Icon,
     iw5: GameIW5Icon,
     t4: GameT4Icon,
@@ -19,9 +21,11 @@ const getGameBGColor = (game) => {
         case 'iw5':
             return 'bg-green-200';
         case 't6':
-            return 'bg-orange-200';
+            return 'bg-orange-100';
         case 't4':
             return 'bg-blue-100';
+        case 't5':
+            return 'bg-red-100';
     }
 };
 

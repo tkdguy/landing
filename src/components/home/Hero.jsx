@@ -18,10 +18,11 @@ const Hero = ({ stats: initialStats }) => {
         <div className="flex flex-col items-center justify-center w-full py-20 lg:py-32 text-center hero px-4">
             <h1 className="text-3xl md:text-7xl font-display">
                 <div className="flex-col game-name inline-flex items-end font-bold">
+                    <span className="bg-clip-text bg-gradient-to-r from-red-500 to-red-700">BO1</span>
                     <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6">BO2</span>
                     <span className="bg-clip-text bg-gradient-to-r from-green-300 to-game-iw5">MW3</span>
                     <span className="bg-clip-text bg-gradient-to-r from-game-t4 to-game-t4-darker">WaW</span>
-                    <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6">BO2</span>
+                    <span className="bg-clip-text bg-gradient-to-r from-red-500 to-red-700">BO1</span>
                 </div>{' '}
                 <FormattedMessage defaultMessage="redefined" />.
             </h1>
@@ -61,25 +62,30 @@ const Hero = ({ stats: initialStats }) => {
             </div>
 
             <style jsx>{`
-                // this code is pretty aids, please look away.
                 @keyframes move-up {
-                    16.666% {
+                    12.5% {
                         transform: translateY(0);
                     }
-                    33.333% {
+                    25% {
+                        transform: translateY(-100%);
+                    }
+                    37.5% {
                         transform: translateY(-100%);
                     }
                     50% {
-                        transform: translateY(-100%);
-                    }
-                    66.666% {
                         transform: translateY(-200%);
                     }
-                    83.333% {
+                    62.5% {
                         transform: translateY(-200%);
+                    }
+                    75% {
+                        transform: translateY(-300%);
+                    }
+                    87.5% {
+                        transform: translateY(-300%);
                     }
                     100% {
-                        transform: translateY(-300%);
+                        transform: translateY(-400%);
                     }
                 }
 
@@ -87,37 +93,52 @@ const Hero = ({ stats: initialStats }) => {
                     0% {
                         opacity: 1;
                     }
-                    16.666% {
+                    12.5% {
                         opacity: 1;
                     }
-                    33.333% {
+                    25% {
                         opacity: 0;
                     }
                 }
 
                 @keyframes game-2 {
-                    16.666% {
+                    12.5% {
                         opacity: 0;
                     }
-                    33.333% {
+                    25% {
+                        opacity: 1;
+                    }
+                    37.5% {
                         opacity: 1;
                     }
                     50% {
-                        opacity: 1;
-                    }
-                    66.666% {
                         opacity: 0;
                     }
                 }
 
                 @keyframes game-3 {
-                    50% {
+                    37.5% {
                         opacity: 0;
                     }
-                    66.666% {
+                    50% {
                         opacity: 1;
                     }
-                    83.333% {
+                    62.5% {
+                        opacity: 1;
+                    }
+                    75% {
+                        opacity: 0;
+                    }
+                }
+
+                @keyframes game-4 {
+                    62.5% {
+                        opacity: 0;
+                    }
+                    75% {
+                        opacity: 1;
+                    }
+                    87.5% {
                         opacity: 1;
                     }
                     100% {
@@ -125,8 +146,8 @@ const Hero = ({ stats: initialStats }) => {
                     }
                 }
 
-                @keyframes game-4 {
-                    83.333% {
+                @keyframes game-5 {
+                    87.5% {
                         opacity: 0;
                     }
                     100% {
@@ -170,6 +191,10 @@ const Hero = ({ stats: initialStats }) => {
 
                 .game-name span:nth-child(4) {
                     animation-name: game-4;
+                }
+
+                .game-name span:nth-child(5) {
+                    animation-name: game-5;
                 }
 
                 .game-name span {

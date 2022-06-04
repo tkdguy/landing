@@ -20,7 +20,7 @@ export default function Home({ stats, codeBlockSource }) {
         <>
             <Head>
                 <title>{`${intl.formatMessage({
-                    defaultMessage: 'BO2, MW3, WaW redefined.',
+                    defaultMessage: 'BO1, BO2, MW3, WaW redefined.',
                 })} - Plutonium Project`}</title>
             </Head>
 

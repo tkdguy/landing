@@ -33,6 +33,7 @@ module.exports = {
                 },
                 orange: colors.orange,
                 bluegray: colors.blueGray,
+                sky: colors.sky,
             },
 
             // dark theme largely stolen from https://stefanzweifel.io/posts/2020/07/20/add-dark-mode-support-to-at-tailwindcsstypography

@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import locales from '../const/locales.mjs';
 import { FlagIcon } from 'react-flag-kit';
 
-const getCountryCode = (locale) => (locale !== 'en' ? locale.toUpperCase() : 'GB');
+const getCountryCode = (locale) => (locale && locale !== 'en' ? locale.toUpperCase() : 'GB');
 
 export const LangSwitch = () => {
     const { locale, asPath, push } = useRouter();

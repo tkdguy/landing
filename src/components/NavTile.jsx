@@ -5,7 +5,8 @@ const NavTile = ({ to, className, title, children, background, bgPosition = 'cen
     <div className="w-58">
         <InternalLink
             href={to}
-            className={`transition duration-300 transform-gpu shadow-inner outline-none relative bg-gray-800 bg-cover rounded-xl ring-1 overflow-hidden scale-100 hover:scale-105 shadow w-full p-4 no-underline bg-gradient-to-bl h-full flex flex-col justify-between ${
+            style={{minHeight: '9rem'}}
+            className={`transition duration-300 transform-gpu shadow-inner outline-none relative bg-gray-800 bg-cover rounded-xl ring-1 overflow-hidden scale-100 hover:scale-105 shadow w-full p-4 no-underline bg-gradient-to-bl flex flex-col justify-between h-full ${
                 className ?? ''
             }`}
         >
