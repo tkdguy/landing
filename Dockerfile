@@ -17,6 +17,12 @@ ENV NEXT_TELEMETRY_DISABLED 1
 ARG translation_key
 ENV NEXT_TRANSLATION_API_KEY=$translation_key
 
+# Install packages for puppeteer
+RUN apk --no-cache add chromium
+
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXEC_PATH="/usr/bin/chromium-browser"
+
 RUN npm run build
 
 # Production image, copy all the files and run next
@@ -32,7 +38,7 @@ COPY --from=builder /app/next.config.mjs ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./package.json
 
-# Automatically leverage output traces to reduce image size 
+# Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
