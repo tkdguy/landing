@@ -8,7 +8,7 @@ import keyFileStorage from 'key-file-storage';
 //  - cache enable/disable
 //  - cache folder option
 
-const kfs = keyFileStorage.default('./.cache/rehype-translate/');
+const kfs = keyFileStorage.default('./.cache/rehype-translate/', false);
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 export const fetchTranslations = async (body, { from = 'en', to = 'de', subscriptionKey, location = 'eastus' }) => {

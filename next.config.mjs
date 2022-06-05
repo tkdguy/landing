@@ -16,6 +16,11 @@ export const nextConfig = {
     },
     experimental: {
         outputStandalone: true,
+
+        // this is to prevent translation API key from getting rate limited
+        // this does mean the non-translated pages build slower, but eh.
+        cpus: 1,
+        workerThreads: false,
     },
     async headers() {
         // https://stackoverflow.com/questions/62077589/setting-cache-control-header-for-static-file-serving-on-nextjs-default-server
