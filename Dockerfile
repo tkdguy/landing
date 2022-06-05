@@ -4,6 +4,7 @@ FROM node:16-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json package-lock.json ./
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 RUN npm ci
 
 # Rebuild the source code only when needed
@@ -20,8 +21,7 @@ ENV NEXT_TRANSLATION_API_KEY=$translation_key
 # Install packages for puppeteer
 RUN apk --no-cache add chromium
 
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-ENV PUPPETEER_EXEC_PATH="/usr/bin/chromium-browser"
+ENV PUPPETEER_EXECUTABLE_PATH="/usr/bin/chromium-browser"
 
 RUN npm run build
 
