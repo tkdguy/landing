@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Hero from '../components/home/Hero';
 import AdditionalFeatures from '../components/home/AdditionalFeatures';
 import DedServerSection from '../components/home/DedServerSection';
@@ -13,16 +12,18 @@ import { mdxOptions } from '../const/mdxOptions';
 import { readFile } from 'fs/promises';
 import { loadI18nMessages } from '../utils/loadIntlMessages';
 import { useIntl } from 'react-intl';
+import { NextSeo } from 'next-seo';
 
 export default function Home({ stats, codeBlockSource }) {
     const intl = useIntl();
     return (
         <>
-            <Head>
-                <title>{`${intl.formatMessage({
+            <NextSeo
+                title={intl.formatMessage({
                     defaultMessage: 'BO1, BO2, MW3, WaW redefined.',
-                })} - Plutonium Project`}</title>
-            </Head>
+                })}
+                description="The Plutonium Project is a CoD mod that aims to improve upon your favorite games."
+            />
 
             <Hero stats={stats} />
             <DedServerSection />

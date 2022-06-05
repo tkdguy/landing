@@ -99,7 +99,7 @@ const Nav = () => {
                 }
 
                 .dl-button-anim {
-                    animation: button-bg 8s infinite;
+                    animation: button-bg 12s infinite;
                     background-size: 800% 800%;
                     background-image: linear-gradient(
                         90deg,
@@ -109,6 +109,8 @@ const Nav = () => {
                         #00bf9f,
                         #93c5fd,
                         #94a3b8,
+                        #ef4444,
+                        #b91c1c,
                         #f59e0b,
                         #f36b1b
                     );

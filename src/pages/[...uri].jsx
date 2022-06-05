@@ -9,6 +9,7 @@ import translate from '../rehype/translate.mjs';
 import { loadI18nMessages } from '../utils/loadIntlMessages';
 import { serialize } from 'next-mdx-remote/serialize';
 import collectAnchors from '../rehype/collect-anchors';
+import collectText from '../rehype/collect-text';
 
 export async function getStaticProps({ params, locale, defaultLocale }) {
     const path = await getPageByParams(params, locale, defaultLocale);
@@ -16,18 +17,21 @@ export async function getStaticProps({ params, locale, defaultLocale }) {
     const autoTranslated = locale !== defaultLocale && !isPageLocalized(path);
     const translateOpts = { from: defaultLocale, to: locale, subscriptionKey: process.env.NEXT_TRANSLATION_API_KEY };
     const anchors = [];
+    let text = [];
     const rehypePlugins = [...mdxOptions.rehypePlugins];
     const [autolinkPlugin] = rehypePlugins.splice(rehypePlugins.length - 1, 1);
     if (autoTranslated) {
         rehypePlugins.push([translate, translateOpts]);
     }
     rehypePlugins.push([collectAnchors, { anchors }]);
+    rehypePlugins.push([collectText, { text }]);
     rehypePlugins.push(autolinkPlugin);
 
     const serialized = await serialize(source, { mdxOptions: { ...mdxOptions, rehypePlugins } });
 
     return {
         props: {
+            description: text.join(' ').substring(0, 255) ?? '',
             source: serialized,
             path,
             anchors,

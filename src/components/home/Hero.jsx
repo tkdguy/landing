@@ -1,17 +1,20 @@
 import theme from 'tailwindcss/defaultTheme';
 import Link from 'next/link';
 import StatsPopup from './StatsPopup';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 const Hero = ({ stats: initialStats }) => {
     const [stats, setStats] = useState(initialStats);
-    useEffect(async () => {
-        try {
-            setStats(await fetch('/api/stats').then((a) => a.json()));
-        } catch (ex) {
-            console.warn('unable to refresh stats:', ex);
-        }
+    useEffect(() => {
+        const func = async () => {
+            try {
+                setStats(await fetch('/api/stats').then((a) => a.json()));
+            } catch (ex) {
+                console.warn('unable to refresh stats:', ex);
+            }
+        };
+        func();
     }, []);
 
     return (

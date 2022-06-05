@@ -1,6 +1,5 @@
 import Sidebar from '../components/Sidebar';
 import ToC from '../components/ToC';
-import Head from 'next/head';
 import React, { useMemo } from 'react';
 import ExternalLinkIcon from '@heroicons/react/solid/ExternalLinkIcon';
 import TranslateIcon from '@heroicons/react/solid/TranslateIcon';
@@ -9,10 +8,11 @@ import { basename, dirname, extname } from 'path-browserify';
 import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
 import { useTitles } from '../hooks/useTitles';
+import { NextSeo } from 'next-seo';
 
 const GITHUB_PREFIX = 'https://github.com/plutoniummod/landing/';
 
-const DocsLayout = ({ children, path, anchors, autoTranslated }) => {
+const DocsLayout = ({ children, path, anchors, autoTranslated, description }) => {
     const { asPath, locale, ...rest } = useRouter();
     const titles = useTitles();
     const url = asPath.split('#')[0].replace(/\/$/, '');
@@ -63,9 +63,7 @@ const DocsLayout = ({ children, path, anchors, autoTranslated }) => {
                 </div>
             )}
             <main className="container mx-auto py-6">
-                <Head>
-                    <title>{`${title} - Plutonium Project`}</title>
-                </Head>
+                <NextSeo title={title} description={description} />
 
                 <div className="flex">
                     <Sidebar />

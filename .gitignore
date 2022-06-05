@@ -37,6 +37,7 @@ yarn-error.log*
 
 public/robots.txt
 public/sitemap.xml
+public/next-banner-generated/
 
 .env
 compiled-lang

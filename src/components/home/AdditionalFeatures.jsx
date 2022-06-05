@@ -94,21 +94,21 @@ const AdditionalFeatures = () => (
                 <FormattedMessage defaultMessage="And much, much more..." />{' '}
             </h1>
 
-            <p className="font-display text-md md:text-3xl pt-4 leading-relaxed text-center">
+            <div className="font-display text-md md:text-3xl pt-4 leading-relaxed text-center">
                 {additionalFeatures.map((feature, i) => (
-                    <span
+                    <div
                         key={i}
-                        className={classNames(i % 2 === 0 ? 'text-gray-300' : 'text-gray-500', {
+                        className={`inline ${classNames(i % 2 === 0 ? 'text-gray-300' : 'text-gray-500', {
                             'hidden md:inline': i > 10 && i < 15,
                             'hidden lg:inline': i >= 15,
-                        })}
+                        })}`}
                     >
                         {i > 0 && ' • '}
 
                         {feature}
-                    </span>
+                    </div>
                 ))}
-            </p>
+            </div>
 
             <p className="text-md md:text-lg pt-4 text-center">
                 <Link href="/docs/qol-changes">

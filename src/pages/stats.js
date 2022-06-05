@@ -1,10 +1,10 @@
-import Head from 'next/head';
 import { Listbox, Transition } from '@headlessui/react';
 import { CheckIcon, ClockIcon, SelectorIcon } from '@heroicons/react/solid';
 import { Fragment, useState } from 'react';
 import { getPageTitles } from '../utils/pages';
 import { loadI18nMessages } from '../utils/loadIntlMessages';
 import { FormattedMessage } from 'react-intl';
+import { NextSeo } from 'next-seo';
 
 const options = [
     {
@@ -32,9 +32,10 @@ const Stats = () => {
 
     return (
         <>
-            <Head>
-                <title>Stats - Plutonium Project</title>
-            </Head>
+            <NextSeo
+                title="Statistics"
+                description="View realtime stats about the Plutonium Project's current and previous players, servers and bans."
+            />
 
             <div className="px-4 xl:px-8 pt-8 pb-4">
                 <div className="flex justify-between items-center mb-6">
