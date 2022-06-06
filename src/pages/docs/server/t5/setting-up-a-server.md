@@ -18,9 +18,13 @@
 
 2. Download the [T5 Config Files](https://github.com/xerxes-at/T5ServerConfig/archive/refs/heads/master.zip)
 
-3. Save/Extract the configs to `C:\gameserver\T5`
+3. Move everything **but** the `localappdata` folder into the server folder.
 
-![img](/images/docs/server/t5/setting-up-a-server/rHwzjTo.png)
+![img](/images/docs/server/t5/setting-up-a-server/bats.png)
+
+4. Next, Press `Windows+R` and type `%localappdata%\Plutonium` and move everything from inside the ZIP's `localappdata` > `Plutonium` folder into here.
+
+![img](/images/docs/server/t5/setting-up-a-server/localappdata.png)
 
 ### 1.2 Creating a server key
 
@@ -89,6 +93,10 @@ Edit the copy of the bat file to: use your new server key, use a new port, and u
 Start the server through the new .bat file.  
 
 ## Additional Notes / FAQ
+
+### Why can't i connect to my server via the console?
+
+T5 works differently in this regard, here you don't connect to servers via IP but via their Session ID that is aquired from our backend. You can't connect to servers directly using their IP on T5.
 
 ### Why can't I find my server hosted at home while others can?
 
