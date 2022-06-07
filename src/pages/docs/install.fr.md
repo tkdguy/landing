@@ -422,5 +422,5 @@ Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionne
 
 ---
 
-Vous avez maintenant terminé l'installation de BO2.  
-Pour lancer BO2 ouvrez le launcher et cliquez sur PLAY.
+Vous avez maintenant terminé l'installation de BO1.  
+Pour lancer BO1 ouvrez le launcher et cliquez sur PLAY.
