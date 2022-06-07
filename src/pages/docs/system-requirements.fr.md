@@ -1,4 +1,4 @@
-# What are the requirements for Plutonium?
+# Quelle est la configuration requise pour Plutonium ?
 
 Plutonium n’a pas de configuration matérielle particulière, tout système capable d’exécuter les jeux de base devrait pouvoir exécuter Plutonium. Cependant, Plutonium nécessite Windows 8.1 ou superieur, le lanceur nécessite un système 64 bits et une carte graphique compatible DirectX 11.
 
