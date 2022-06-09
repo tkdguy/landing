@@ -27,6 +27,11 @@ At our core we have a huge love for tinkering with our old beloved games and pus
 * The Intervention is ported to MW3 on December 24, 2020
 * T4 client released on April 9, 2021
 * IW5 custom GSC support released on May 12, 2021
+* The Mark of 1 Million Registered users on Plutonium has been passed on June 22, 2021
+* T6 Charity Tournament on which over $42k was raised held by OpTic Hitch on October 30, 2021
+* IW5 Tournament held by Spanish Streamer IlloJuan that made MW3 the most watched game on Twitch on March 13, 2022
+* T5 Client released on June 3, 2022
+* The Mark of 2.5 Million Registered users on Plutonium has been passed on June 8, 2022
 * More to come soon!
 
 ## Plutonium Staff Structure
