@@ -10,6 +10,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Mod directory is now `%localappdata%/Plutonium/storage/t5/mods`
   * Further improvements to connection issues with zombie servers
   * Removed ranked match, wager match and main menu buttons from the multiplayer menu
+  * Added `unlockall` command to multiplayer
 
 ## r3192
 
