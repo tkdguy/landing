@@ -2,18 +2,40 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2905-r3042
+## r3207
+
+* T5
+  * Fixed stat saving in multiplayer
+  * Added mod support to zombies
+  * Mod directory is now `%localappdata%/Plutonium/storage/t5/mods`
+  * Further improvements to connection issues with zombie servers
+  * Removed ranked match, wager match and main menu buttons from the multiplayer menu
+
+## r3192
+
+* T5
+  * Fixed issues that prevented people from connecting to zombies servers
+  * `cg_fov` no longer resets in multiplayer
+
+## r3174
+
+* T5
+  * Plutonium T5 Client released
+
+## r3042
+
 * T6
   * Lobbies are now supported for private match, and the game now uses the original game networking code so more people should be able to host private matches. For more information, please see [this documentation page](/docs/custom-games)
 
-## r2794-r2905
+## r2905
+
 * T6
   * Added Streamer Mode which hides IP Addresses from the screen.
   ![Streamer Mode Image](/images/docs/changelog/49d1334d-ec26-47c1-935b-4a8a781cff9c.png)
 * T4
   * Added Streamer Mode which hides IP Addresses from the screen.
 
-## r2748-r2794
+## r2794
 
 * IW5
   * Voice Chat Added!
@@ -36,7 +58,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
       * `sv_voicequality` - Voice Quality (0-9) \[Default is 3, which is the original console quality. 9 is the best quality and 0 is the worst.]
     * Note: In order to mute players, open the scoreboard, use your mouse wheel/dpad to highlight their name and press Enter/A.
 
-## r2702-r2748
+## r2748
 
 * General
   * Mod downloading now adds file checksums, missing files / mismatching files will now be redownloaded.
@@ -53,7 +75,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * T6
   * Added the option to load demos in codcaster mode
 
-## r2693-r2702
+## r2702
 
 * T4
   * Increased file size limited
@@ -62,7 +84,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fixes mod downloading
   * Allows users to host custom maps
 
-## r2485-r2693 - T4 SP refactor
+## r2693 - T4 SP refactor
 
 * General:
   * Bootstrapper now registers as high performance app in Windows 10. (No more manually setting up Pluto to run on your dGPU on notebooks! Works for AMD and Nvidia)
@@ -149,14 +171,14 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Disabled possible host migration on private matches
   * Zombies dedicated server tick rate increased from 10hz to 20hz to be in line with Steam custom games.
 
-## r2462-r2485
+## r2485
 
 * IW5:
   * Improve curses console
   * Various bug fixes
   * Improved performance
 
-## r2385-r2462
+## r2462
 
 * IW5:
   * Even more performance fixes!
@@ -170,7 +192,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fixed rank mode! You can now unlock everything by playing without having to use the unlockall command!
   * Fixed unlockall! Unlockall now truly unlocks everything in the game.
 
-## r2234-r2385
+## r2385
 
 * IW5:
   * [New Maps](/docs/client/iw5/custom-maps): Nuketown, Skidrow, and Favela.
@@ -183,7 +205,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Player Cards now save!
   * Improved server stability
 
-## r2190-r2234
+## r2234
 
 * IW5:
   * Update to Highrise to fix shadows and explosive barrels.
@@ -198,7 +220,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Added level "say" notify for when a player says something in chat. (`level waittill( "say", message, player );`)
   * Hide chat message if it starts with a slash (useful for hiding commands with third-party administration tools).
 
-## r2158-r2190
+## r2190
 
 * IW5:
   * [Aim Assist](aim-assist) added. Click this link to learn how to make sure it's enabled for you in game. Server owners can disable this for their servers if they want to. It is on by default.
@@ -215,12 +237,12 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`) - use this to help with stick drift.
   * Typing dvars in console and hitting enter will now output their value like other cods.
 
-## r2155-r2158
+## r2158
 
 * T6:
   * Fixed an issue on ZM that caused door prices and easter egg steps to not be correct for solo games
 
-## r2109-r2155
+## r2155
 
 * T6:
   * Servers/Private Matches ZM
@@ -261,7 +283,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
     - Added Server Browser button accessible from the main and party lobbies.
     - Removed CODtv and livestream buttons.
 
-## r2107-r2109
+## r2109
 
 * IW5:
   * Fixed IW5 crashing for servers
@@ -271,7 +293,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * T6:
   * Force 'aim_lockon_enabled' to 1
 
-## r2016 - r2107 - Aim Assist is here
+## r2107 - Aim Assist is here
 
 * IW5:
   * General improvements to stability.
@@ -294,7 +316,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * The t6r from the start of our client is now removed, everything will now use %localappdata%/storage/t6/
   * `cg_fovScale` will no longer keep resetting after closing Plutonium.
 
-## r1953-r2016
+## r2016
 
 * IW5:
   * Added `g_playerCollision` Dvar, this enables/disables Collision between players
@@ -302,7 +324,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Added `replaceFunc` GSC Function, this allows "hooking" GSC Functions without recompiling the entire file
   * Added chat `say` and `tell` commands to dedicated servers
 
-## r1824-r1953
+## r1953
 
 * T4:
   * Fix bots switchToWeapon() GSC not working
@@ -321,7 +343,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fix client crash when gsc files had uppercase letters in their file name
   * Fix overwriting specific game scripts on T6ZM
 
-## r1790 - r1824 - MW3 & BO2 GSC Modding update
+## r1824 - MW3 & BO2 GSC Modding update
 
 * IW5:
   * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5).
@@ -330,7 +352,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * T6:
   * You can now load completely custom scripts without having to replace _clientids.gsc but you still need to compile it.
 
-## r1715 - r1790
+## r1790
 
 * T4:
   * Structural fixes - Our developers have been working to reverse engineer the data structures that the game uses, we use this to reduce the chances of bugs or crashes.
@@ -343,7 +365,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * GSC errors no longer kill the entire game and instead return you to the main menu, this should make things easier for the mod developers to debug their mods.
   * `sv_sayName` dvar introduced, server owners can use this in their config files to change the Console: name to a name of their choice. IE `Console: IW4MADMIN is now running!` could be changed to `CLANNAME: IW4MADMIN is now running!`
 
-## r1715 - r1728 - Hotfix
+## r1728 - Hotfix
 
 * IW5:
   * Fixed a bug that caused mp_rust and mp_highrise to crash.
@@ -363,7 +385,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 
 </Alert>
 
-## r1205 - r1715 - Plutonium T4 Release
+## r1715 - Plutonium T4 Release
 
 * IW5:
   * Intervention sounds fixed.
@@ -405,7 +427,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * Implemented ultrawide patch, aspectratio is automatically adjusted based on screen resolution.
   * `cg_fovMin` / `cg_fovScale` unprotected.
 
-## r1177 - r1205 - g_randomSeed
+## r1205 - g_randomSeed
 
 * IW5 & T6:
   * `g_randomSeed` is now a server dvar. Servers can set this to 1 or 0. It is set to 1 (On) by default. It can be set in your server config file along with other dvars.
@@ -430,7 +452,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 
 </Alert>
 
-## r1166 - r1177
+## r1177
 
 * IW5:
   * Fix slow motion in killcams - they should now be smooth. Trickshotters everywhere will be so happy. This was a [bug bounty set by a community member](https://forum.plutonium.pw/topic/7377/iw5-slowmode-killcam-fix).
@@ -440,7 +462,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * Fixed multiple bugs that caused instability on zombie servers.
   * Fixed various client crashes.
 
-## r1163 - r1166
+## r1166
 
 * IW5:
   * Kick commands now run on the game thread, fixing possible issues when running custom scripts.
@@ -448,7 +470,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 * T6:
   * Fixed a bug that caused the game to crash when searching for servers in the server browser.
 
-## r1137 - r1163
+## r1163
 
 * IW5:
   * Fix demos not saving correctly - when you check Theater mode now, each match should be recorded correctly.
@@ -462,7 +484,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 * T6:
   * Fixed `fast_restart` command for Zombies - server owners can now send the `fast_restart` command via console to quickly restart the map.
 
-## r1065 - r1137 - Christmas Update
+## r1137 - Christmas Update
 
 * IW5:
   * Added the Intervention. You can now select the Intervention from the Create a Class menu. This includes full camo support as well as weapon attachments and proficiency. Due to how IW5 handles lighting, gold will not look very good on most maps, we suggest using a custom camo.
@@ -484,7 +506,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * Fixed steam presence. Steam now tracks your game hours again & Plutonium is visible to your friends on Steam again. A Steam update broke this.
   * Fixed RCON issues with IW5/T6 that caused server crashing or instability.
 
-## r920 - r1065
+## r1065
 
 * IW5:
   * UPnP support has been released, you should now be able to join your friends without any hassle! (Disclaimer: UPnP is not enabled on every router.).
@@ -506,7 +528,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 
 </Alert>
 
-## r877 - r920
+## r920
 
 * T6:
   * Added `zombies_minplayers`, this dvar allows server hosters to set a minimum amount of players before the game starts.
@@ -514,7 +536,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * Setting the max amount of players for dedicated servers now works again.
   * General stability fixes.
 
-## r827 - r877
+## r877
 
 * T6:
   * Fixed ranked mode on dedicated servers, this now allows players actual ranks to display in-game. This also means that you get XP for scorestreaks, assists etc instead of just kills.
@@ -525,7 +547,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 * Launcher:
   * The updater tool the launcher uses now features an UI.
 
-## r803 - r827
+## r827
 
 * IW5:
   * General stability improvements.
@@ -557,7 +579,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
 
 </Alert>
 
-## r791 - r803
+## r803
 
 * IW5:
   * Servers use less CPU resources now, this was due to a bug that wasn't spotted related to server heartbeats.
@@ -570,7 +592,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * Fixed an issue where the game would not work on other languages than English.
   * Fixed a crash related to the in-game console.
 
-## r742 - r791
+## r791
 
 * General:
   * Piry.exe is no longer used, The Plutonium Launcher (Plutonium.exe) is used instead.
@@ -584,7 +606,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
 * T6:
   * ServerList is now opened by pressing F10 or Home.
 
-## r687 - r742 - Native Controller Support
+## r742 - Native Controller Support
 
 * IW5:
   * Plutonium IW5 has been updated to include Native Controller Support, meaning Xbox 360 and Xbox One controllers should be plug and play, this includes menus for configuratioa and the correct button icons for both Xbox and Playstation.
@@ -607,7 +629,7 @@ We will attempt to get workarounds for these in future updates but cannot say th
 
 </Alert>
 
-## r619 - r687
+## r687
 
 * IW5:
   * Splashes fixed (Multi kill, Triplekill, captured objective text on the side).
@@ -616,7 +638,7 @@ We will attempt to get workarounds for these in future updates but cannot say th
   * Change team / change class is now blocked on game modes where it is not allowed (same applies for DSR settings).
   * rcon output buffer relocated to allow bigger responses (fixes status command being truncated).
 
-## r600 - r619 - The Aiming Update
+## r619 - The Aiming Update
 
 * General:
   * Backend Improvements - Improvements made to our backend to improve reliability of the serverlist and other backend elements.
@@ -644,7 +666,7 @@ We've tested this system with our testers and a few known trickshotters and stre
 
 </Alert>
 
-## r554 - r600
+## r600
 
 * General:
   * Forum upvotes - Posts can now be upvoted by clicking the thumbs up icon in the bottom right, this can be used to show appreciation for a post.
@@ -662,7 +684,7 @@ We've tested this system with our testers and a few known trickshotters and stre
 * Launcher:
   * Launcher Protocol handler - The Plutonium launcher now supports the `plutonium://` protocol. `plutonium://play/iw5mp` for example.
 
-## r499 - r554
+## r554
 
 * IW5:
   * Out of memory fixes for servers. Increasing their stability.
@@ -682,7 +704,7 @@ We've tested this system with our testers and a few known trickshotters and stre
 * Launcher:
   * Some slight Launcher UI changes.
 
-## r363 - r496
+## r496
 
 * General:
   * The backend will now force a 2nd instance of the game to error if it tries to join a game whilst you are already in a game.
@@ -708,7 +730,7 @@ We've tested this system with our testers and a few known trickshotters and stre
 * Launcher:
   * Launcher now lets you change game directory again..
 
-## r496 - r499
+## r499
 
 * IW5:
   * Extra patching of the exploit mentioned in the last update.
@@ -720,7 +742,7 @@ If you get the "checking for saved credentials" bug then please browse to `%loca
 
 </Alert>
 
-## r356 - r363
+## r363
 
 * IW5:
   * `cg_fovScale` is now unlocked & saved to config. We had a good few requests for this.
