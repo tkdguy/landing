@@ -2,6 +2,22 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3259
+
+* T5
+  * Sensitivity no longer resets on multiplayer
+  * You can now zoom in on the overlay menu using ctrl + mouse wheel
+  * Jump Pads on Moon no longer kill you
+  * Increased material asset pool on zombies, more custom zombies maps should now work
+  * Fixed the game crashing when pressing F12
+  * Added support for ultrawide resolutions
+  * Team Scores show up again on multiplayer
+  * You can now scroll up in the external console
+
+* All Games - Dedicated Servers
+  * RCON Issues have been resolved
+  * The external console window should now work properly under wine
+
 ## r3208
 
 * T5
