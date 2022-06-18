@@ -16,7 +16,7 @@ __Example Scripts__
 
 ---
 
-### Getting Started with GSC
+### Getting Started with GSC on T6
 
 1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about later.
 
@@ -79,7 +79,7 @@ If your script should always be loaded no matter the game mode copy it to `%loca
 
 ![In Game](/images/docs/modding/loading-mods/bun6iFx.png)
 
-### Loading existing mods
+### Loading existing Mods on T6
 
 1\. Download the mod of your choice, mods can be found on the Modding Releases Section on our forums.
 
@@ -89,7 +89,7 @@ If your script should always be loaded no matter the game mode copy it to `%loca
 
 ## IW5
 
-### Getting Started with GSC
+### Getting Started with GSC on IW5
 
 1\. Navigate to the IW5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\iw5` into it, and hitting Ok.
 
@@ -139,7 +139,7 @@ onplayerspawned()
 
 ![success](/images/docs/modding/loading-mods/X2qZtj5.png)
 
-### Loading existing mods
+### Loading existing Mods on IW5
 
 1\. Download the mod of your choice, mods can be found on the Modding Releases Section on our forums.
 
