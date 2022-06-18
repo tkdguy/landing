@@ -2,6 +2,14 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3266
+
+* T5
+  * Private matches with more than 2 Players now work
+  * Dedicated Servers for T5 Zombies can now rotate between multiple maps
+  * Respawning now works correctly when the map restarts on T5 Zombies
+  * Fixed bug that caused Servers to freeze after an RCON Command was sent
+
 ## r3259
 
 * T5
