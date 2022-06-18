@@ -2,7 +2,7 @@
 
 ## T6
 
-### Requirements
+### Requirements for writing GSC Scripts
 
 [GSC Toolkit](https://drive.google.com/file/d/1j_ocjFCQsFaWqF2-PfdoJt2nF_EpNL_G/view?usp=sharing) (Required to compile your script)
 
@@ -16,7 +16,7 @@ __Example Scripts__
 
 ---
 
-### Getting Started
+### Getting Started with GSC
 
 1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about later.
 
@@ -79,9 +79,17 @@ If your script should always be loaded no matter the game mode copy it to `%loca
 
 ![In Game](/images/docs/modding/loading-mods/bun6iFx.png)
 
+### Loading existing mods
+
+1\. Download the mod of your choice, mods can be found on the Modding Releases Section on our forums.
+
+2\. Installation instructions for the mod are usually included in it's release post, if you simply get a single gsc script with the mod it most likely goes into `%localappdata%\Plutonium\storage\t6\scripts\mp` or `scripts\zm` depending on if it's a mod for zombies or multiplayer.
+
+3\. Start the game, the mod will be loaded automatically.
+
 ## IW5
 
-### Getting Started⠀
+### Getting Started with GSC
 
 1\. Navigate to the IW5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\iw5` into it, and hitting Ok.
 
@@ -131,6 +139,14 @@ onplayerspawned()
 
 ![success](/images/docs/modding/loading-mods/X2qZtj5.png)
 
+### Loading existing mods
+
+1\. Download the mod of your choice, mods can be found on the Modding Releases Section on our forums.
+
+2\. Installation instructions for the mod are usually included in it's release post, if you simply get a single gsc script with the mod it most likely goes into `%localappdata%\Plutonium\storage\iw5\scripts`.
+
+3\. Start the game and load the mod via the "Mods" menu.
+
 ## T4
 
 ### Loading Mods / Custom Zombies Maps
@@ -145,13 +161,13 @@ Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder 
 
 </Alert>
 
-1. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
+1\. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
 
-2. Create a folder called `mods`
+2\. Create a folder called `mods`
 
 ![img](/images/docs/modding/loading-mods/Zzpf3O5.png)
 
-3. Place any mods in that folder.
+3\. Place any mods in that folder.
 
 {/*
 
@@ -166,7 +182,7 @@ __We suggest using the Plutonium folder where possible though, if you crash due 
 
 If you are installing a custom mod that comes in an `.exe`, run the exe, then move the mod folder from `%localappdata%\Activision\CoDWaW\mods` to `%localappdata%\Plutonium\storage\t4\mods`.
 
-__Note:__ Mods for multiplayer must have `mp_` at the front of their folder.
+__Note:__ Mods for multiplayer must have their folder name start with `mp_`.
 
 ![Mods showing up](/images/docs/modding/loading-mods/6qchlaS.png)
 
@@ -184,13 +200,13 @@ You can place your mod in either of these places:
 
 */}
 
-1. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
+1\. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
 
-2. Create a folder called `mods`
+2\. Create a folder called `mods`
 
 ![img](/images/docs/modding/loading-mods/Zzpf3O5.png)
 
-3. Place any custom maps in that folder.
+3\. Place any custom maps in that folder.
 
 Once the map is installed, you must load a mod first. If you do not have a mod to go along with your custom map, you can load a dummy mod by [opening the console](/docs/opening-console) and typing `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.
 
@@ -198,10 +214,16 @@ Once the map is installed, you must load a mod first. If you do not have a mod t
 
 ### Loading Mods / Custom Zombies Maps for BO1
 
-1. Navigate to the T5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t5` into it, and hitting Ok.
+1\. Navigate to the T5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t5` into it, and hitting Ok.
 
-2. Create a folder called `mods`
+2\. Create a folder called `mods`
 
 ![img](/images/docs/modding/loading-mods/bo1-mods.png)
 
-3. Place any mods in that folder.
+3\. Place any mods in that folder.
+
+__Note:__ Mods for multiplayer must have their folder name start with `mp_`.
+
+4\. Load the mod via the in-game "Mods" menu.
+
+5\. If you want to play on a custom zombies map you need to first load it via the "Mods" menu, then start it via the console by running the command `map mapname`. You can find the name of the map by looking at it's files in the mods folder (e.g. `zombie_kow`).
