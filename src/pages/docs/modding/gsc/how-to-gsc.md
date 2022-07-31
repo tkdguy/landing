@@ -438,6 +438,6 @@ This guide has parts from Zeroy's CoD 4 GSC guide, but nothing was changed about
 
 [Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction)
 
-[Ingramz's CoDScript Example](https://gist.github.com/ChxseH/aa1a67e9b1254620b4909aa42ef60184)
+[Ingramz's CoDScript Example](https://raw.githubusercontent.com/Ingramz/CoDScript-Sublime-Package/master/codscript_example.gsc)
 
 [iAegle's "Creating a HUD Element Guide"](https://www.itsmods.com/forum/Thread-Tutorial-Creating-a-HUD-Element-Text-Basics.html)
