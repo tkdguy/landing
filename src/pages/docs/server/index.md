@@ -1,6 +1,6 @@
 # Dedicated Servers
 
-Dedicated servers are some of the tools we give back to our community to empower our players to host whichever matches they want while also delivering superiour performance and being highly modifiable.
+Dedicated servers are some of the tools we give back to our community to empower our players to host whichever matches they want while also delivering superior performance and being highly modifiable.
 Unlike BO2 and MW3 our dedicated servers are:
 
 * Ranked
@@ -9,7 +9,7 @@ Unlike BO2 and MW3 our dedicated servers are:
 * Hosted by our community for our community
 * Allow the server hosters to define their own set rules.
   * From Crouch servers, to Hide and Seek, to 18 players FFA without any rules, anything is possible.
-* Modable
+* Moddable
 * Allow custom GSC Scripts
 * Allow 3rd party RCon tools
 
