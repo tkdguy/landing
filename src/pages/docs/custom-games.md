@@ -2,8 +2,9 @@
 
 <Alert variant="tip">
 
-Plutonium worked hard to use the original invite system in T6 and T5.  
-Inviting a friend should now work out of the box for a lot of players.
+On T6 and T5 most players should be able to invite people out of the box.  
+In case it doesn't work you will have to take extra steps just like before.
+On T4 and IW5 you may need to take extra steps to be able to join your friends.
 
 </Alert>
 
@@ -11,7 +12,7 @@ This guide will teach you how to play with friends over the internet in a custom
 No matter which game you're trying to play **the first step is to follow each other on the forum**.  
 See [Add a friend to your friend list](#add-a-friend-to-your-friend-list)
 
-Hosting isn't complicated but involves several networking concept that you need to understand before diving in so please make sure to take your time to read this guide to understand the concepts involved in hosting.  
+Hosting isn't complicated but involves several networking concepts that you need to understand before diving in so please make sure to take your time to read this guide to understand the concepts involved in hosting.  
 You can also take a look at the [Introduction](#introduction) if there's anything you don't understand.
 
 ## Introduction
@@ -19,8 +20,7 @@ You can also take a look at the [Introduction](#introduction) if there's anythin
 ### Why do I need to do all this?
 
 First of all you need to know that Plutonium ask you to do all these steps because hosting servers costs money, which is why most games on Steam don't require anything from you other than clicking "Create a game".  
-But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.  
-Thanks to the work the team has put into T6 and T5 most players should be able to invite people out of the box but in case it doesn't work you will have to take extra steps like before.
+But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.
 
 ### How does hosting work?
 
