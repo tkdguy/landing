@@ -2,27 +2,25 @@
 
 <Alert variant="tip">
 
-Plutonium T6 has released a new update that makes custom games identical to the original game. This means you can invite players with ease.
-
-<Details title="Inviting Players">
-![inviting players](/images/docs/custom-games/t6-inviting-as-host.gif)
-</Details>
-
-<Details title="Joining Players">
-![joining sesh](/images/docs/custom-games/t6-joining-sesh.gif)
-</Details>
+Plutonium worked hard to use the original invite system in T6 and T5.  
+Inviting a friend should now work out of the box for a lot of players.
 
 </Alert>
 
-This guide will teach you how to play with friends over the internet in a custom games match.
-Hosting isn't complicated but involves several networking concept that you need to understand before diving in so please make sure to take your time to read this guide to understand the concepts involved in hosting.
+This guide will teach you how to play with friends over the internet in a custom games match.  
+No matter which game you're trying to play **the first step is to follow each other on the forum**.  
+See [Add a friend to your friend list](#add-a-friend-to-your-friend-list)
+
+Hosting isn't complicated but involves several networking concept that you need to understand before diving in so please make sure to take your time to read this guide to understand the concepts involved in hosting.  
+You can also take a look at the [Introduction](#introduction) if there's anything you don't understand.
 
 ## Introduction
 
 ### Why do I need to do all this?
 
-First of all you need to know that Plutonium ask you to do all these steps because hosting servers costs money, which is why most games on Steam don't require anything from you other than clicking "Create a game".
-But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.
+First of all you need to know that Plutonium ask you to do all these steps because hosting servers costs money, which is why most games on Steam don't require anything from you other than clicking "Create a game".  
+But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.  
+Thanks to the work the team has put into T6 and T5 most players should be able to invite people out of the box but in case it doesn't work you will have to take extra steps like before.
 
 ### How does hosting work?
 
@@ -62,15 +60,22 @@ We recommend searching "your router name + enable UPnP" on Google or searching i
 ### How to port forward?
 
 Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).  
-Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.  
+Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google/Youtube.  
 
 You can either create a port range rule, for example 1000-1005 will open every port from 1000 to 1005.
-Or you can create a rule for each port required, for example for T6 one rule for 4976 and another one for 4977.  
+Or you can create a rule for each port required, the result is the same.  
 The ports values/range is given on the section for your game. For example 4976-4977 means both the port 4976 and the port 4977 or a port range from 4976 to 4977.
 
-Opening a single port should look something like the screenshot below.
-Rule name can be anything, Protocol is UDP (Both works too but isn't required)
-External and Internal port value should always be the same. The value is the port given in the guide for your game.
+Opening a single port should look something like the screenshot below.  
+Here are the most common things you need to know. You might not have all these settings.
+
+- Rule name can be anything, something descriptive like Plutonium T6 is recommended
+- Protocol is UDP (Both works too but isn't required)
+- The port/value to enter is the port given in the section for your game
+- External and internal port values should always be the same 
+- Destination port is the port for your game
+- Source port can either be blank or a wildcard or all/everything depending on your router. You need to allow any/all source port
+
 ![img](/images/docs/custom-games/port_forward_example.png)
 
 ## Add a friend to your friend list
@@ -83,16 +88,62 @@ Both you and your friend need to follow each other on the Plutonium forums to jo
   
 Your friend will appear in the Plutonium overlay's Friend list tab if you both follow each other. If they don't appear just restart your game.
 
-## T4 / T6
+## T6 
+
+In T6 inviting your friend should work out of the box.
+
+### **Inviting your friend(s)**
+
+- Make sure your party privacy is set to open (P)
+- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
+- Open the friends list (F)
+- Invite your friend(s)
+
+![inviting players](/images/docs/custom-games/t6-inviting-as-host.gif)
+
+Your friend(s) can now accept the invitation.
+
+![accepting an invitation](/images/docs/custom-games/t6-joining-sesh.gif)
+
+### **If it didn't work**
+
+First make sure you followed the steps correctly.  
+Next what you can try is simply letting another friend invite you/the other players.
+
+If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](##how-to-port-forward)).  
+Once this is done you can restart your game and invite your friend(s) again by following the instructions above.
+
+## IW5
+
+In IW5, there's no easy way of telling if UPnP is enabled, outside of just testing it.  
+There is no party system in Plutonium IW5 so your friend(s) can only join you while you're in-game.
+
+### **If UPnP is enabled**
+
+Start a private match and have your friend join you by following these steps: 
+- Open the friends menu (F)
+- Double click on the name of your friend who's hosting
+
+### **If UPnP is disabled / is not working**
+
+- Forward the port `27016` (UDP) on your router (see [How to port forward?](##how-to-port-forward))  
+- [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
+- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
+- Once those steps are done, open your game and start a private match. **(Parties will not work)**
+
+- Your friend should now be able to join you by following these steps:
+  - Open the friends menu (F)
+  - Double click on the name of your friend who's hosting
+
+## T4
 
 <Alert variant="tip">
 
-There is no party system in Plutonium so your friend(s) can only join you while you're in-game (or finished loading in the loading screen).
-To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below.
-(These commands need to be entered in the [console](/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
+There is no party system in Plutonium T4 so your friend(s) can only join you while you're in-game (or finished loading in the loading screen).  
 
-`sp_minplayers 2` [T4]  
-`zombies_minplayers 2` [T6]
+To be able to play with your friends on round 1 in zombies you can force the game to wait in the loading screen until a certain amount of players connect with this command `sp_minplayers 2`.  
+This command needs to be entered in the [console](/docs/opening-console/).  
+Replace `2` by the number of players you want to wait for before starting the game.
 
 </Alert>
 
@@ -109,14 +160,16 @@ Once you and your friend are following each other, the person who wants to host 
 
 {/*
 
-If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
+If the match requires 2 players to start you can force it to start anyways by starting a game using the solo button.  
+Don't worry, it's not actually solo, it will start an online private match that your friends can join.  
+Alternatively you can use the `xpartygo` command to force the match to start.
 
 */}
 
-- Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
+- Once the game is started your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
-If you can't get it to work even with UPnP enabled then you will have to port forward instead.
-For that read [If UPnP is still disabled or you can't connect despite it being enabled](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled).
+If you can't get it to work even with UPnP enabled then you will have to port forward instead.  
+For this read [If UPnP is still disabled or you can't connect despite it being enabled](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled).
 
 ---
 
@@ -124,46 +177,38 @@ For that read [If UPnP is still disabled or you can't connect despite it being e
 
 - Enable UPnP (see [How to enable UPnP?](#how-to-enable-upnp))
 
-- If UPnP is now enabled follow the [instructions above](#if-upnp-is-enabled). If it's not follow the [instructions below](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled).
+- If UPnP is now enabled follow the [instructions above](#if-upnp-is-enabled).  
+If it's not follow the [instructions below](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled).
 
 ---
 
 ### **If UPnP is still disabled or you can't connect despite it being enabled**
 
-- Forward the port for your game on your router (see [How to port forward?](##how-to-port-forward))  
-  - `28960-28961` (UDP) [for T4]  
-  - `4976-4977` (UDP) [for T6]  
-- [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
+- Forward these ports on your router `28960-28961` (UDP) (see [How to port forward?](##how-to-port-forward))  
+- [Whitelist these port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
-{/*- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`*/}
+{/*
+
+If the match requires 2 players to start you can force it to start anyways by starting a game using the solo button.  
+Don't worry, it's not actually solo, it will start an online private match that your friends can join.  
+Alternatively you can use the `xpartygo` command to force the match to start.
+
+*/}
+
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
-
-## IW5
-
-In IW5, there's no easy way of telling if UPnP is enabled, outside of just testing it.
-
-### **If UPnP is enabled**
-
-Simply start a private match and have your friend join you from Friends > Double clicking your name.
-
-### **If UPnP is disabled / is not working**
-
-Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).
-Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
-
-- Forward the port `27016` (UDP) on your router (see [How to port forward?](##how-to-port-forward))
-- [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
-- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
-- Once those steps are done, open your game and start a private match. **(Parties will not work)**
-{/*- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`*/}
-- Your friend should now be able to join by double-clicking your name in the Friends List
 
 ## T5
 
+- Make sure your party privacy is set to open or friends only or invite only
+- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
+- Open the friends list
+- Invite your friend(s)
+
 ### Multiplayer
 
-To play with friends on T5 Multiplayer you must start a private match and invite your friend to join.
+To play with friends on T5 Multiplayer you must start a private match and invite your friend to join.  
+You need to be in-game to be joined. Inviting your friend in a multiplayer lobby will not work.
 
 ![image inviting friend to join](/images/docs/custom-games/t5-invite.png)
 
@@ -176,6 +221,14 @@ To play with friends on T5 Zombies you can invite them while in a lobby.
 ![image in lobby inviting a friend](/images/docs/custom-games/t5-zm-invite.png)
 
 ![image of said friend in lobby](/images/docs/custom-games/t5-zm-joined.png)
+
+### **If it didn't work**
+
+First make sure you followed the steps correctly.  
+Next what you can try is simply letting another friend invite you/the other players.
+
+If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](##how-to-port-forward)).  
+Once this is done you can restart your game and invite your friend(s) again by following the instructions above.
 
 ## Additional Notes
 
