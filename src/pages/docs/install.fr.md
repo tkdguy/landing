@@ -25,7 +25,7 @@ Le launcher va maintenant démarrer le processus d'installation des fichiers du 
 
 ### Je veux juste mettre à jour / J’ai déjà BO2 installé
 
-Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installing-t6-dlc)**.
+Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installation-des-dlc-bo2)**.
 
 ### Installation du jeu de base (BO2)
 
@@ -127,7 +127,7 @@ Pour lancer BO2 ouvrez le launcher et cliquez sur PLAY.
 
 ### Je veux juste mettre à jour / J’ai déjà MW3 installé
 
-Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installing-the-dlcs-mw3)**.
+Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installation-des-dlc-mw3)**.
 
 ### Installation du jeu de base (MW3)
 
@@ -260,7 +260,7 @@ Pour lancer MW3 ouvrez le launcher et cliquez sur PLAY.
 
 ### Je veux juste mettre à jour / J’ai déjà WAW installé
 
-Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Configurer T4 dans le launcher Plutonium](#setting-up-t4-with-the-plutonium-launcher)**.
+Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Configurer T4 dans le launcher Plutonium](#configurer-t4-dans-le-launcher-plutonium)**.
 
 ### Installation du jeu de base (WAW)
 
@@ -328,7 +328,7 @@ Pour lancer WAW ouvrez le launcher et cliquez sur PLAY.
 
 ### Je veux juste mettre à jour / J’ai déjà BO1 installé
 
-Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installing-the-dlcs-bo1)**.
+Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installation-des-dlc-bo1)**.
 
 ### Installation du jeu de base (BO1)
 

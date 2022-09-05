@@ -72,7 +72,7 @@ Here are the most common things you need to know. You might not have all these s
 - Rule name can be anything, something descriptive like Plutonium T6 is recommended
 - Protocol is UDP (Both works too but isn't required)
 - The port/value to enter is the port given in the section for your game
-- External and internal port values should always be the same 
+- External and internal port values should always be the same
 - Destination port is the port for your game
 - Source port can either be blank or a wildcard or all/everything depending on your router. You need to allow any/all source port
 
@@ -88,7 +88,7 @@ Both you and your friend need to follow each other on the Plutonium forums to jo
   
 Your friend will appear in the Plutonium overlay's Friend list tab if you both follow each other. If they don't appear just restart your game.
 
-## T6 
+## T6
 
 In T6 inviting your friend should work out of the box.
 
@@ -110,7 +110,7 @@ Your friend(s) can now accept the invitation.
 First make sure you followed the steps correctly.  
 Next what you can try is simply letting another friend invite you/the other players.
 
-If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](##how-to-port-forward)).  
+If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](#how-to-port-forward)).  
 Once this is done you can restart your game and invite your friend(s) again by following the instructions above.
 
 ## IW5
@@ -120,13 +120,13 @@ There is no party system in Plutonium IW5 so your friend(s) can only join you wh
 
 ### **If UPnP is enabled**
 
-Start a private match and have your friend join you by following these steps: 
+Start a private match and have your friend join you by following these steps:
 - Open the friends menu (F)
 - Double click on the name of your friend who's hosting
 
 ### **If UPnP is disabled / is not working**
 
-- Forward the port `27016` (UDP) on your router (see [How to port forward?](##how-to-port-forward))  
+- Forward the port `27016` (UDP) on your router (see [How to port forward?](#how-to-port-forward)).  
 - [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
@@ -184,7 +184,7 @@ If it's not follow the [instructions below](#if-upnp-is-still-disabled-or-you-ca
 
 ### **If UPnP is still disabled or you can't connect despite it being enabled**
 
-- Forward these ports on your router `28960-28961` (UDP) (see [How to port forward?](##how-to-port-forward))  
+- Forward these ports on your router `28960-28961` (UDP) (See [How to port forward?](#how-to-port-forward))
 - [Whitelist these port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
@@ -222,12 +222,12 @@ To play with friends on T5 Zombies you can invite them while in a lobby.
 
 ![image of said friend in lobby](/images/docs/custom-games/t5-zm-joined.png)
 
-### **If it didn't work**
+### **If it doesn't work**
 
 First make sure you followed the steps correctly.  
 Next what you can try is simply letting another friend invite you/the other players.
 
-If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](##how-to-port-forward)).  
+If it still doesn't work no matter what you do then you will have to port forward the port `3074` (UDP) on your router (see [How to port forward?](#how-to-port-forward)).  
 Once this is done you can restart your game and invite your friend(s) again by following the instructions above.
 
 ## Additional Notes
