@@ -20,7 +20,8 @@ You can also take a look at the [Introduction](#introduction) if there's anythin
 ### Why do I need to do all this?
 
 First of all you need to know that Plutonium ask you to do all these steps because hosting servers costs money, which is why most games on Steam don't require anything from you other than clicking "Create a game".  
-But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.
+But for indie games and passionate projects like Plutonium hosting a server for everyone would cost way too much money so you're required to host your games yourself instead which is free for everyone.  
+As for Black Ops and Black Ops II, Plutonium worked on a system that tries to make it all work out of the box but depending on your network configuration it might fail and you will then need to port forward to ensure that system works.
 
 ### How does hosting work?
 
@@ -59,12 +60,14 @@ We recommend searching "your router name + enable UPnP" on Google or searching i
 
 ### How to port forward?
 
-Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).  
-Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google/Youtube.  
+Hosting a private match without UPnP or requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).  
+Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" or "your [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) name + port forward" on Google/Youtube.  
 
-You can either create a port range rule, for example 1000-1005 will open every port from 1000 to 1005.
+You can either create a port range rule, for example 1000-1005 will open every port from 1000 to 1005 including 1000 and 1005.
 Or you can create a rule for each port required, the result is the same.  
-The ports values/range is given on the section for your game. For example 4976-4977 means both the port 4976 and the port 4977 or a port range from 4976 to 4977.
+The port(s) value/range is given on the section for your game. Each game can have a different port so read the section for the game you're trying to play on that page.  
+For example `28960-28961` means both the port `28960` and the port `28961` or a port range from `28960` to `28961`.  
+On the other hand `3074` means you only have to open that specific port.
 
 Opening a single port should look something like the screenshot below.  
 Here are the most common things you need to know. You might not have all these settings.
@@ -86,7 +89,8 @@ Both you and your friend need to follow each other on the Plutonium forums to jo
 - Go to their profile and hit the green "plus" (+) button to follow them.
   - If there is a heart, that means that you are already following them.
   
-Your friend will appear in the Plutonium overlay's Friend list tab if you both follow each other. If they don't appear just restart your game.
+Once you both follow each other you will see your friend in the game's friend list (or in the Plutonium overlay's friend list tab for T4).  
+If after following each other you can't see each other in your friends list in-game just restart your game.
 
 ## T6
 
