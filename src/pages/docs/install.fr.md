@@ -93,7 +93,9 @@ Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%`
 
 ### Configurer T6 dans le launcher Plutonium
 
-1. Cliquez sur l'onglet Black Ops 2, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Black Ops 2 :
+Naviguez dans l'onglet Black Ops 2 et cliquez sur **SETUP** et sélectionnez le dossier contenant les fichiers de Black Ops II.  
+Le dossier que vous devrez sélectionner s'appelera très probablement `pluto_t6_full_game` ou `Call of Duty Black Ops II`.  
+Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sélectionnez le dossier qui contient les fichiers de Black Ops II !**
 
 ![Launcher set-up 1](/images/docs/install/5FOePMY.png)
 
@@ -102,7 +104,7 @@ Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%`
 * **Si vous utilisez le torrent** le dossier a sélectionner sera nommé `pluto_t6_full_game`
 ![Launcher set-up 2](/images/docs/install/hdjiIhN.png)
 
-**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur l’icône D'ENGRENAGE à côté du bouton PLAY)**
+**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur Game Settings à côté du bouton PLAY)**
 ![Launcher reselect hint](/images/docs/install/MnkAcr8.png)
 
 Pour ceux qui ont du mal à localiser le dossier du jeu, voici à quoi ressemble le contenu du dossier du jeu:
@@ -236,14 +238,16 @@ Vous avez maintenant terminé l'installation des DLC de MW3.
 
 ### Configurer IW5 dans le launcher Plutonium
 
-1. 1. Cliquez sur l'onglet Modern Warfare 3, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Modern Warfare 3 :
+Naviguez dans l'onglet Modern Warfare 3 et cliquez sur **SETUP** et sélectionnez le dossier contenant les fichiers de Modern Warfare 3.  
+Le dossier que vous devrez sélectionner s'appelera `Call of Duty Modern Warfare 3`.  
+Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sélectionnez le dossier qui contient les fichiers de Modern Warfare 3 !**
 ![img](/images/docs/install/qDJ7OeD.png)
 
 * **Si vous utilisez les fichiers Steam, il se trouvera à cet emplacement :** `{Lettre disque}\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`.
 
 ![img](/images/docs/install/qtgfVmJ.png)
 
-**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur l’icône D'ENGRENAGE à côté du bouton PLAY)**
+**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur Game Settings à côté du bouton PLAY)**
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -301,14 +305,16 @@ Une fois le téléchargement terminé, vous aurez téléchargé votre copie du j
 
 ### Configurer T4 dans le launcher Plutonium
 
-1. Cliquez sur l'onglet World At War, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de World At War :
+Naviguez dans l'onglet World At War et cliquez sur **SETUP** et sélectionnez le dossier contenant les fichiers de World At War.  
+Le dossier que vous devrez sélectionner s'appelera très probablement `pluto_t4_full_game` ou `Call of Duty World At War`.  
+Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sélectionnez le dossier qui contient les fichiers de World At War !**
 ![WAW in launcher](/images/docs/install/4xzmAUX.png)
 
 * **Si vous utilisez vos fichiers Steam, il se trouvera à cet emplacement :** `{Lettre disque}\Program Files (x86)\Steam\steamapps\common\Call of Duty World At War`
 
 * **Si vous utilisez le torrent** le dossier a sélectionner sera nommé `pluto_t4_full_game`
 
-**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur l’icône D'ENGRENAGE à côté du bouton PLAY)**
+**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur Game Settings à côté du bouton PLAY)**
 
 ---
 
@@ -402,14 +408,16 @@ Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%`
 
 ### Configurer T5 dans le launcher Plutonium
 
-1. Cliquez sur l'onglet Black Ops, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Black Ops :
+Naviguez dans l'onglet Black Ops et cliquez sur **SETUP** et sélectionnez le dossier contenant les fichiers de Black Ops.  
+Le dossier que vous devrez sélectionner s'appelera très probablement `pluto_t5_full_game` ou `Call of Duty Black Ops`.  
+Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sélectionnez le dossier qui contient les fichiers de Black Ops !**
 ![BO1 in launcher](/images/docs/install/bo1-select-launcher.png)
 
 * **Si vous utilisez vos fichiers Steam, il se trouvera à cet emplacement :** `{Lettre disque}\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
 
 * **Si vous utilisez le torrent** le dossier a sélectionner sera nommé `pluto_t5_full_game`
 
-**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur l’icône D'ENGRENAGE à côté du bouton PLAY)**
+**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur Game Settings à côté du bouton PLAY)**
 
 ---
 
