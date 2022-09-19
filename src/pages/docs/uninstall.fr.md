@@ -10,4 +10,6 @@ Supprimer les fichiers des jeux dont vous souhaitez vous débarasser et suivez c
 
 ![img](/images/docs/uninstall/aYhSvlR.png)
 
-Tout est bon ! Plutonium est entièrement desinstallé, vous pouvez dès à présent désinstaller les fichiers des jeux restants.
+Voilà ! Plutonium est maintenant désinstallé.  
+Pour complètement supprimer tout ce qui est lié à Plutonium vous pouvez également supprimer le dossier de votre/vos jeux (par exemple `pluto_t6_full_game`).  
+Si vous avez suivi notre documentation d'installation vos jeux devraient se trouver dans `C:\Games` ou `C:\Jeux`

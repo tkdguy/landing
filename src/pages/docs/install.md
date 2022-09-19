@@ -25,7 +25,7 @@ The launcher will now start the process of installing the client files.
 
 ### I just want to update / I already have BO2 installed?
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing the DLCs](#installing-the-dlcs-bo2)** section.
+If you already have the game installed from Steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing the DLCs](#installing-the-dlcs-bo2)** section.
 
 ### Installing the base game (BO2)
 
@@ -89,16 +89,18 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 ### Setting up T6 with the Plutonium Launcher
 
-1. Navigate to Black Ops 2 and then hit **SETUP** and then select your Black Ops 2 game folder:
+Navigate to Black Ops 2 and then hit **SETUP** and then select your Black Ops 2 game folder.  
+The folder you need to select is most likely either called `pluto_t6_full_game` or `Call of Duty Black Ops II`.  
+Do not select your Games folder or your Document folders. **Select the folder with Black Ops II files in it!**
 
 ![Launcher set-up 1](/images/docs/install/5FOePMY.png)
 
-* **If you are using a steam copy it will be in this location:** `{Drive letter}\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops 2`
+* **If you are using a Steam copy it will be in this location:** `{Drive letter}\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops 2`
 
 * **If you are using the torrent it will be in a folder named** `pluto_t6_full_game`
 ![Launcher set-up 2](/images/docs/install/hdjiIhN.png)
 
-**(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)**
+**(If you ever need to reselect the game folder, simply click on Game Settings next to the PLAY button)**
 ![Launcher reselect hint](/images/docs/install/MnkAcr8.png)
 
 For those struggling to locate your game folder, this is what the contents of the game folder will look like:
@@ -229,14 +231,16 @@ Congratulations the DLC is now installed!
 
 ### Setting up IW5 with the Plutonium Launcher
 
-1. Navigate to MW3 and then hit **SETUP** and then select your MW3 game folder:
+Navigate to Modern Warfare 3 and then hit **SETUP** and then select your Modern Warfare 3 game folder.  
+The folder you need to select will be called `Call of Duty Modern Warfare 3`.  
+Do not select your Games folder or your Document folders. **Select the folder with Modern Warfare 3 files in it!**
 ![img](/images/docs/install/qDJ7OeD.png)
 
 * **If you have followed along with this guide it will be in this location:** `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`.
 
 ![img](/images/docs/install/qtgfVmJ.png)
 
-**(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)**
+**(If you ever need to reselect the game folder, simply click on Game Settings next to the PLAY button)**
 ![img](/images/docs/install/MnkAcr8.png)
 
 For those struggling to locate your game folder, this is what the contents of the game folder will look like:
@@ -257,7 +261,7 @@ It will crash the first time you start the game as it needs to delete a file, th
 
 ### ***I just want to update / I already have WaW installed?***
 
-If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#setting-up-t4-with-the-plutonium-launcher) section.
+If you already have the game installed from Steam then you can skip the below section and move onto the [Plutonium Launcher](#setting-up-t4-with-the-plutonium-launcher) section.
 
 ### ***Installing the base game (WAW)***
 
@@ -300,14 +304,16 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 ### Setting up T4 with the Plutonium Launcher
 
-1. Navigate to World at War and then hit SETUP and then select your World at War game folder:
+Navigate to World At War and then hit **SETUP** and then select your World At War game folder.  
+The folder you need to select is most likely either called `pluto_t4_full_game` or `Call of Duty World At War`.  
+Do not select your Games folder or your Document folders. **Select the folder with World At War files in it!**
 ![WAW in launcher](/images/docs/install/4xzmAUX.png)
 
-If you are using a steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty World At War`
+If you are using a Steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty World At War`
 
 If you are using the torrent it will be in a folder named `pluto_t4_full_game`
 
-(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)
+(If you ever need to reselect the game folder, simply click on Game Settings next to the PLAY button)
 
 ---
 
@@ -327,7 +333,7 @@ To launch WAW simply open the Plutonium launcher and select PLAY
 
 ### ***I just want to update / I already have BO1 installed?***
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing the DLCs](#installing-the-dlcs-bo1)** section.
+If you already have the game installed from Steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing the DLCs](#installing-the-dlcs-bo1)** section.
 
 ### ***Installing the base game (BO1)***
 
@@ -397,14 +403,16 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 ### Setting up T5 with the Plutonium Launcher
 
-1. Navigate to Black Ops 1 and then hit SETUP and then select your Black Ops 1 game folder:
+Navigate to Black Ops and then hit **SETUP** and then select your Black Ops game folder.  
+The folder you need to select is most likely either called `pluto_t5_full_game` or `Call of Duty Black Ops`.  
+Do not select your Games folder or your Document folders. **Select the folder with Black Ops files in it!**
 ![BO1 in launcher](/images/docs/install/bo1-select-launcher.png)
 
-If you are using a steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
+If you are using a Steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
 
 If you are using the torrent it will be in a folder named `pluto_t5_full_game`
 
-(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)
+(If you ever need to reselect the game folder, simply click on Game Settings next to the PLAY button)
 
 ---
 
