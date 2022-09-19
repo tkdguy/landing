@@ -161,13 +161,9 @@ Once you and your friend are following each other, the person who wants to host 
 
 - Start a Private Match
 
-{/*
-
 If the match requires 2 players to start you can force it to start anyways by starting a game using the solo button.  
 Don't worry, it's not actually solo, it will start an online private match that your friends can join.  
 Alternatively you can use the `xpartygo` command to force the match to start.
-
-*/}
 
 - Once the game is started your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
@@ -191,13 +187,10 @@ If it's not follow the [instructions below](#if-upnp-is-still-disabled-or-you-ca
 - [Whitelist these port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
-{/*
 
 If the match requires 2 players to start you can force it to start anyways by starting a game using the solo button.  
 Don't worry, it's not actually solo, it will start an online private match that your friends can join.  
 Alternatively you can use the `xpartygo` command to force the match to start.
-
-*/}
 
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
