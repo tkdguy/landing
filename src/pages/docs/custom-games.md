@@ -60,11 +60,10 @@ We recommend searching "your router name + enable UPnP" on Google or searching i
 
 ### How to port forward?
 
-Hosting a private match without UPnP or requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).  
+Hosting a private match without UPnP or when your friends cannot join out of the box requires you (the one who invites the others/hosts) to port forward (see [What is port forwarding?](#what-is-port-forwarding)).  
 Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" or "your [ISP](https://en.wikipedia.org/wiki/Internet_service_provider) name + port forward" on Google/Youtube.  
 
-You can either create a port range rule, for example 1000-1005 will open every port from 1000 to 1005 including 1000 and 1005.
-Or you can create a rule for each port required, the result is the same.  
+You can either create a port range rule, for example 1000-1005 will open every port from 1000 to 1005 including 1000 and 1005 or you can create a rule for each port required, the result is the same.  
 The port(s) value/range is given on the section for your game. Each game can have a different port so read the section for the game you're trying to play on that page.  
 For example `28960-28961` means both the port `28960` and the port `28961` or a port range from `28960` to `28961`.  
 On the other hand `3074` means you only have to open that specific port.
