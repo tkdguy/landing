@@ -21,7 +21,7 @@ Be sure to play until the next map loads or your classes won't save!
 
 ### IW5
 
-If you'd rather use the game's menu click Barracks in the main menu and then click the Unlock All button. 
+If you'd rather use the game's menu click Barracks in the main menu and then click the Unlock All button.  
 You can also customize your prestige and more using the Customize Stats button right under the UnlockAll button.  
 ![img](/images/docs/unlockall-max-rank/unlockall-iw5.png)
 
