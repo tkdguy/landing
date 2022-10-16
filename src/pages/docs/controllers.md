@@ -83,9 +83,9 @@ The `ScpSettings application` will let you change settings such as enabling/disa
 
 First make sure the controller is enabled in the game's settings. This is usually in Settings > Controls > Gamepad.  
 
-Also we recommend trying your controller in a game rather than in the menus since not all game support/fully support controllers in the menus.
+We also recommend trying your controller in a game rather than in the menus since not all games support/fully support controllers in the menus.
 
-Last, make sure you either that you either unticked the right settings in Steam as mentioned at the top of this page or that you completely exited Steam by right clicking the Steam icon in the tray menu in Windows taskbar and clicking Exit.
+Last, make sure that you either unticked the right settings in Steam as mentioned at the top of this page or that you completely exited Steam by right clicking the Steam icon in the tray menu in Windows taskbar and clicking Exit.
 
 ### DS4Windows
 

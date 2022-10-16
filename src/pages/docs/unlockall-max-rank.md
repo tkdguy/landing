@@ -21,13 +21,13 @@ Be sure to play until the next map loads or your classes won't save!
 
 ### IW5
 
-If you'd rather use the game's menu you can go in the main menu and click on Barracks and then at the bottom click on the Unlock All button.  
+If you'd rather use the game's menu click Barracks in the main menu and then click the Unlock All button. 
 You can also customize your prestige and more using the Customize Stats button right under the UnlockAll button.  
 ![img](/images/docs/unlockall-max-rank/unlockall-iw5.png)
 
 ### T6
 
-If you'd rather use the game's menu you can go in the multiplayer menu and click on Public Match then click on the Unlock All button.  
+If you'd rather use the game's menu click Public Match in multiplayer and then click the Unlock All button.  
 ![img](/images/docs/unlockall-max-rank/unlockall-t6.png)
 
 ### T5
