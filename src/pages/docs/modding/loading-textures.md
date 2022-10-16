@@ -5,6 +5,7 @@
 Textures in .iwi format, you can find community made camos and other textures in the modding release sections on our forums:
 
 - [For T4](https://forum.plutonium.pw/category/40/waw-modding-releases-resources)
+- [For T5](https://forum.plutonium.pw/category/60/bo1-modding-releases-resources)
 - [For IW5](https://forum.plutonium.pw/category/27/mw3-modding-releases-resources)
 - [For T6](https://forum.plutonium.pw/category/23/bo2-modding-releases-resources)
 
