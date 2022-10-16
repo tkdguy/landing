@@ -97,7 +97,7 @@ Then click on the Edit button, go to the tab called Other (on the far right) and
 
 ### World at War
 
-If you think you did everything right and your controller is still not working something that could fix this is executing the `exec default_controller.cfg` command in [the console](/docs/opening-console).
+If you think you did everything right and your controller is still not working on World at War then you can try [applying the game's controller config](/docs/client/t4/rebinding-controller/).
 
 ## Switching Reload Action
 
