@@ -45,6 +45,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 
 * T6
   * Used correct dvars for aim assist
+  * Fixed offline LAN support
 
 
 ## r3266
