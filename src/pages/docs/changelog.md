@@ -36,12 +36,15 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fixed SP crash related to weapons on custom maps
   * Changed script runtime errors to no longer fatal error
   * Added game log support in SP
+  * Fixed fs_buildospath log
 
 * IW5
   * Add support for double bounce `sv_enablebounces 2` [Link](https://forum.plutonium.pw/topic/20021/feature-20-iw5-double-bouncing)
   * Increased zone memory size to support larger custom maps
   * Fixed crash for clients when server would send invalid weapon index
   * Add support to load user map arena files from relative directory
+  * Fixed offline LAN support
+  * Fixed internal file system path rework
 
 * T6
   * Used correct dvars for aim assist
