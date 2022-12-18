@@ -21,11 +21,11 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * SP `sv_reconnectClientsOnRotate` dvar, fixes a crash where some custom maps crashes the client when map_rotating
   * Fixed clients being stuck in connecting forever until they disconnect
   * GetFunction no longer is case sensitive
-  * FS_ReadFile com_error for realism mod
+  * FS_ReadFile com_error fix for realism mod
   * Improved loading times for dedis
   * T4SP improved custom map dedi support with custom spawning logic (cheesecube unlimited and octogonal should work)
   * Added `all_gsc_errors_non_terminal` dvar
-  * Improved serverlist
+  * Improved serverlist inlcuding showing round number, aimassist, gametype, and map names
   * sv_cheats and cheat dvars are cleaned up upon disconnecting
   * Clients can no longer adjust replicated dvars
   * Enabled aim_lockon for controller's aimassist
@@ -35,9 +35,10 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * T5
   * Fixed SP crash related to weapons on custom maps
   * Changed script runtime errors to no longer fatal error
+  * Added game log support in SP
 
 * IW5
-  * Add support for double bounce `sv_enablebounces 2`
+  * Add support for double bounce `sv_enablebounces 2` [Link](https://forum.plutonium.pw/topic/20021/feature-20-iw5-double-bouncing)
   * Increased zone memory size to support larger custom maps
   * Fixed crash for clients when server would send invalid weapon index
   * Add support to load user map arena files from relative directory
