@@ -65,11 +65,11 @@ onplayerspawned()
 }
 ```
 
-3\. Using the GSC Tool downloaded in the requirements you can easily turn a source script into a compiled script that the game will be able to read and run by following the [instructions](https://github.com/xensik/gsc-tool#usage).  
+3\. Using the GSC Tool downloaded in the requirements section, you can easily turn a source script into a compiled script that the game will be able to read and run by following the [instructions](https://github.com/xensik/gsc-tool#usage).  
 For T6 the command should look something like  
 `gsc-tool.exe comp t6 "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc"`.  
 
-To make working with T6 scripts easier you can also paste these commands in a batch file and run it using Windows cmd or your IDE's integrated terminal.
+To make working with T6 scripts easier you can also create a batch file containing the following commands and run it using Windows cmd or your IDE's integrated terminal.
 
 ```bat
 @echo off
@@ -78,7 +78,7 @@ copy "example.gsc" "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc" 
 gsc-tool.exe comp t6 "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc" 
 ```
 
-It will simply copy your source file directly in the `scripts\mp` folder and compile it right after, showing you the compiling result, without modifying the original source file that you're currently working on.  
+It will simply copy your source file directly into the `scripts\mp` folder and compile it right after, showing you the result of the compilation process, without modifying the original source file that you're currently working on.  
 
 Of course, replace the first copy command argument with the name of the source GSC file you're working with, or the full path to it.  
 Also put the exact same path for the second copy argument and the `gsc-tool` 3rd argument (the path) so that it will compile the file that got copied.
@@ -93,7 +93,7 @@ For example here the compiler throws a very clear error on the third line becaus
 ![t6-compiling-syntax-error](/images/docs/modding/loading-mods/t6-compiling-syntax-error.png)
 ![t6-compiling-syntax-error-gsc](/images/docs/modding/loading-mods/t6-compiling-syntax-error-gsc.png)
 
-4\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.  
+4\. Take your compiled script and put it into `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.  
 If your script should always be loaded no matter the game mode copy it to `%localappdata%\Plutonium\storage\t6\scripts`
 
 7\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.
