@@ -121,8 +121,8 @@ If you get this error then this means you selected your entire disk instead of t
 
 ![img](/images/docs/install/error-401.png)
 
-In both cases, the way to fix this issue is click on Game settings in the launcher and to select the folder that contains the Black Ops II files.  
-If you can't find it then read the from the start again slowly.
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the Black Ops II files.  
+If you can't find it then read the [guide from the start](#t6-black-ops-2) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -273,8 +273,8 @@ If you get this error then this means you selected your entire disk instead of t
 
 ![img](/images/docs/install/error-401.png)
 
-In both cases, the way to fix this issue is click on Game settings in the launcher and to select the folder that contains the Modern Warfare 3 files.  
-If you can't find it then read the from the start again slowly.
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the Modern Warfare 3 files.  
+If you can't find it then read the [guide from the start](#iw5-modern-warfare-3) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -359,8 +359,8 @@ If you get this error then this means you selected your entire disk instead of t
 
 ![img](/images/docs/install/error-401.png)
 
-In both cases, the way to fix this issue is click on Game settings in the launcher and to select the folder that contains the World at War files.  
-If you can't find it then read the from the start again slowly.
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the World at War files.  
+If you can't find it then read the [guide from the start](#t4-world-at-war) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -471,8 +471,8 @@ If you get this error then this means you selected your entire disk instead of t
 
 ![img](/images/docs/install/error-401.png)
 
-In both cases, the way to fix this issue is click on Game settings in the launcher and to select the folder that contains the World at War files.  
-If you can't find it then read the from the start again slowly.
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the World at War files.  
+If you can't find it then read the [guide from the start](#t5-black-ops-1) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
 

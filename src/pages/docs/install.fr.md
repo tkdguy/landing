@@ -125,7 +125,7 @@ Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entie
 ![img](/images/docs/install/error-401.png)
 
 Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de Black Ops II.  
-Si vous n'arrivez pas à le trouver alors lisez à nouveau lentement depuis le début.
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t6-black-ops-2).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -278,7 +278,7 @@ Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entie
 ![img](/images/docs/install/error-401.png)
 
 Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de Modern Warfare 3.  
-Si vous n'arrivez pas à le trouver alors lisez à nouveau lentement depuis le début.
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#iw5-modern-warfare-3).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -357,7 +357,7 @@ Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entie
 ![img](/images/docs/install/error-401.png)
 
 Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de World at War.  
-Si vous n'arrivez pas à le trouver alors lisez à nouveau lentement depuis le début.
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t4-world-at-war).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -469,7 +469,7 @@ Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entie
 ![img](/images/docs/install/error-401.png)
 
 Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de World at War.  
-Si vous n'arrivez pas à le trouver alors lisez à nouveau lentement depuis le début.
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t5-black-ops-1).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
