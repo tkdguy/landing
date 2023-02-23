@@ -5,17 +5,17 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 ## r3408
 
 * Launcher
-  * Game dependent redistributables are automatically installed (DirectX, VC++ redist)
+  * Game dependent redistributables are now automatically installed (DirectX, VC++ redists)
 
 * All Games
-  * Fixed K&M users being able to abuse controller aim assist
+  * Fixed KBM players being able to abuse controller aim assist
+  * Fixed a username spoofing exploit
 
 * T5
   * Config files save correctly again
   * Bots are no longer counted as players by IW4MAdmin
   * `player_sustainAmmo` has been restored
   * Prepending `/` in front of chat messages hides them while retaining GSC notify
-  * Fixed `com_maxclients` not being in-sync with `sv_maxclients`
 
 * IW5
   * Theatre recordings/demos have been fixed and save to disk again
