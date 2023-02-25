@@ -2,6 +2,15 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r 3412 (Hot Fix)
+
+* IW5
+  * Fixed sensitivity and gamepad knifing issue
+
+
+* T4
+  * Correct Tesla gun behavoir
+
 ## r3408
 
 * Launcher
