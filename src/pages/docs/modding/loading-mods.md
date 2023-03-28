@@ -9,7 +9,8 @@ You can find scripts and mods in the modding releases sections on our forums:
 - [For T6](https://forum.plutonium.pw/category/23/bo2-modding-releases-resources)
 
 Note that you don't need to restart the game to (re)load your `.gsc` scripts.  
-You can either simply restart a game or you can run `map_restart` in the [console](https://plutonium.pw/docs/opening-console/).  
+You can simply end the current level/game you're in and start a new one.  
+You can also run `map_restart` in the [console](https://plutonium.pw/docs/opening-console/) which will restart the current level/game you're in.  
 To go faster you can even run the command below once so that the `map_restart` command will be ran whenever you press `P` on your keyboard, while in a game focused on the game (console closed, chat closed etc).  
 Change P to any other unused key you want. `bind P "map_restart"`
 
