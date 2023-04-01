@@ -68,7 +68,7 @@ onplayerspawned()
 
 ### Loading existing scripts on T6
 
-1\. Download the script of your choice, scripts can be found on the [Modding Releases section](hhttps://forum.plutonium.pw/category/23/bo2-modding-releases-resources) on our forums.
+1\. Download the script of your choice, scripts can be found on the [Modding Releases section](https://forum.plutonium.pw/category/23/bo2-modding-releases-resources) on our forums.
 
 2\. Installation instructions for the mod are usually included in the release's post.  
 If you simply get gsc script(s) it most likely goes into `%localappdata%\Plutonium\storage\t6\scripts` if it's a generic script or in `scripts\mp` for mp only or in `scripts\zm` for zm only.
