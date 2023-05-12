@@ -4,7 +4,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 
 ## r3514
 
-* All Games 
+* All Games
   * Security Fixes
 
 * IW5
@@ -36,7 +36,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Add `player_sustainammo`
   * Add `player_sprintunlimited`
   * Allow the ablity to have custom bot names from bots.txt
-  * Allow the ablity to blank sv_sayname 
+  * Allow the ablity to blank sv_sayname
   * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag).
 
 
