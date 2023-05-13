@@ -16,6 +16,7 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Fix Game Summary crash on private match
   * Add support to mute players from text chat (`muteclient num` and `unmuteclient num`)
   * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
+  * Add new GSC compiler. It supports preprocessor directives.
 
 * T4
   * Add `sv_sayname`
@@ -32,13 +33,15 @@ This is a list of Plutonium updates, and the changes they introduced. New update
   * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
 
 * T6
-  * Fixed an issue where long usernames were causing challenge verification to fail
+  * Fix issue where long usernames were causing challenge verification to fail
+  * Fix g_deadChat dvar
   * Add dead players chat
   * Add `player_sustainammo`
   * Add `player_sprintunlimited`
   * Allow the ablity to have custom bot names from bots.txt
   * Allow the ablity to blank sv_sayname
   * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
+  * Add new GSC compiler. It supports preprocessor directives.
 
 ## r3417
 
